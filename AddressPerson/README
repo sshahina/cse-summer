@@ -1,0 +1,15 @@
+
+this set of files shows the concept of composition (has-a)
+
+the Person class contains an object of the Address class
+
+there are two main driver examples to test them:
+the first driver (main1.cpp) only tests the address class
+the second driver (main2.cpp) tests both classes;
+note that the person object is created using an existing address object.
+
+the Makefile creates both targets (main1 , main2)
+you can also use it to create one of the targets (e.g.: make main1)
+
+
+
